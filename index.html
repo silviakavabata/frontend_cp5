@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Silvia">
+    <meta name="description" content="Site sobre lontras">
+    <meta name="keywords" content="lontra, animal, mamífero, fofo">
+    <title>Lontras fãs</title>
+    <!-- Importando o CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Importando o Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Importando menu do Google Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,0,0" />
+    <!-- Colocando favicon -->
+    <link rel="icon" type="image/png" href="./imagens/lontra-logo.png" sizes="16x16">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+            <a class="navbar-brand" href="index.html">
+                <img src="./imagens/lontra-logo.png" alt="Logotipo Lontra Fans" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-symbols-rounded">menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#alimentacao">Alimentação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habitat">Habitat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Banner rotativo -->
+        <div id="newsCarousel" class="carousel slide mb-4 mt-4" data-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#newsCarousel" data-slide-to="1"></li>
+                <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#newsCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/lontra-banner-1.png" alt="Lontrinha 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/lontra-banner-2.png" alt="Lontrinha 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/lontra-banner-3.png" alt="Lontrinha 3" class="d-block w-100">
+                </div>
+            </div>
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Conteúdos -->
+        <section class="container mt-5">
+            <!-- Sobre -->
+            <article id="sobre" class="row bg-cinza">
+                <!-- Imagem -->
+                <div class="col-md-6">
+                    <img src="./imagens/lontra-sobre.png" alt="Lontra nadando enquanto olha para a câmera"
+                        class="imagem-conteudo">
+                </div>
+                <!-- textos -->
+                <div class="col-md-6">
+                    <h2>Sobre</h2>
+                    <p>As lontras são fascinantes mamíferos aquáticos que habitam uma variedade de ambientes aquáticos
+                        em todo o mundo. Elas pertencem à família Mustelidae e ao gênero Lutra, e existem várias
+                        espécies de lontras, cada uma com suas próprias características distintas. O nome científico
+                        mais comum para a lontra europeia é Lutra lutra, enquanto a lontra do mar é conhecida como
+                        Enhydra lutris.</p>
+                    <p>São conhecidas por sua aparência adorável e comportamento brincalhão. Elas têm corpos alongados e
+                        hidrodinâmicos, com patas curtas e fortes garras que as ajudam a nadar e a capturar presas. Suas
+                        patas traseiras são especialmente adaptadas para a natação, com membranas interdigitais que
+                        funcionam como nadadeiras.</p>
+                    <p>A pelagem das lontras é densa e impermeável, o que as ajuda a manter uma temperatura corporal
+                        estável enquanto estão na água. Sua coloração varia de acordo com a espécie e o habitat, indo de
+                        marrom escuro a quase preto, com algumas lontras possuindo manchas ou padrões distintos.</p>
+                </div>
+            </article>
+
+            <!-- Alimentação -->
+            <article id="alimentacao" class="row">
+                <!-- textos -->
+                <div class="col-md-6">
+                    <h2>Alimentação</h2>
+                    <p>As lontras são animais carnívoros, o que significa que sua dieta é composta principalmente de
+                        carne. No entanto, a variedade de presas que elas consomem varia de acordo com a espécie
+                        e o ambiente em que vivem. Suas principais fontes de alimento incluem:</p>
+                    <p class="p-destaque">Peixes:</p>
+                    <p>A grande maioria da dieta das lontras consiste em peixes. Elas são caçadoras ágeis e podem
+                        perseguir peixes em rios, lagos e oceanos. Algumas lontras têm preferências por espécies
+                        específicas de peixes, enquanto outras caçam uma variedade de presas.</p>
+                    <p class="p-destaque">Crustáceos:</p>
+                    <p>Lontras de água doce e algumas lontras marinhas se alimentam de crustáceos, como caranguejos de
+                        rio, camarões e lagostas. Suas garras afiadas são especialmente úteis para abrir conchas
+                        e cascas duras.</p>
+                    <p class="p-destaque">Moluscos:</p>
+                    <p>Lontras também se alimentam de moluscos, como mexilhões e ostras. Elas são conhecidas por usar
+                        ferramentas, como pedras, para quebrar as conchas e acessar a carne interna.</p>
+                    <p class="p-destaque">Anfíbios e répteis:</p>
+                    <p>Em algumas regiões, lontras podem caçar anfíbios, como sapos e salamandras, ou até mesmo pequenos
+                        répteis, como tartarugas.</p>
+                    <p class="p-destaque">Pequenos mamíferos:</p>
+                    <p>Embora menos comuns, lontras ocasionalmente caçam pequenos mamíferos que vivem perto da água,
+                        como ratos d'água e coelhos.</p>
+                </div>
+                <!-- Imagem -->
+                <div class="col-md-6">
+                    <img src="./imagens/lontra-alimentacao.png" alt="Lontra comendo um peixe" class="imagem-conteudo-2">
+                </div>
+            </article>
+
+            <!-- Habitat -->
+            <article id="habitat" class="row bg-cinza">
+                <!-- Imagem -->
+                <div class="col-md-6">
+                    <img src="./imagens/lontra-habitat.png" alt="Lontra nadando" class="imagem-conteudo">
+                </div>
+                <!-- textos -->
+                <div class="col-md-6">
+                    <h2>Habitat</h2>
+                    <p>O habitat das lontras varia dependendo da espécie, mas esses mamíferos aquáticos são
+                        conhecidos por sua adaptação a uma ampla gama de ambientes aquáticos em todo o mundo. Abaixo,
+                        descreverei alguns dos habitats mais comuns onde diferentes espécies de lontras podem ser
+                        encontradas:</p>
+                    <p class="p-destaque">Rios e Lagos de Água Doce:</p>
+                    <p>Lontras Europeias (Lutra lutra): Encontradas em rios, riachos e lagos em grande parte da
+                        Europa, essas lontras preferem habitats de água doce com águas limpas e abundância de peixes,
+                        sua principal fonte de alimento.</p>
+                    <p>Lontras do Norte (Lontra canadensis): Nativas da América do Norte, elas habitam rios de
+                        água doce, lagos e pântanos. As lontras do norte são excelentes nadadoras e são
+                        frequentemente encontradas em habitats com vegetação densa nas margens dos rios.</p>
+                    <p class="p-destaque">Costas Marítimas e Oceânicas:</p>
+                    <p>Lontras Marinhas (Enhydra lutris): Essas lontras são encontradas ao longo das costas do
+                        Pacífico Norte, incluindo o Alasca e a Califórnia. Elas passam grande parte de suas vidas no mar
+                        e são conhecidas por sua incrível habilidade de mergulho para se alimentar de peixes,
+                        ouriços-do-mar e outros invertebrados marinhos.</p>
+                    <p class="p-destaque">Zonas Tropicais e Subtropicais:</p>
+                    <p>Lontras de Pescoço Manchado (Hydrictis maculicollis): Nativas da África, essas lontras
+                        preferem habitats de água doce em áreas tropicais e subtropicais. Elas são conhecidas por suas
+                        manchas distintas no pescoço e são encontradas principalmente em rios e lagos.</p>
+                    <p class="p-destaque">Pântanos e Zonas de Água Salobra:</p>
+                    <p>Lontras de Garganta Branca (Lutrogale perspicillata): Essas lontras são encontradas em
+                        áreas de água doce, mas também podem habitar pântanos e estuários em algumas partes da Ásia,
+                        como
+                        o sudeste asiático.</p>
+                    <p>É importante notar que as lontras são altamente sensíveis à qualidade da água de seus
+                        habitats. Poluição da água, degradação do habitat e perturbações humanas podem ter impactos
+                        significativos nas populações de lontras em todo o mundo. Portanto, a conservação de seus
+                        habitats é
+                        crucial para a sobrevivência dessas espécies.</p>
+                </div>
+            </article>
+
+            <!-- Curiosidades -->
+            <article id="curiosidades" class="row">
+                <!-- textos -->
+                <div class="col-md-6">
+                    <h2>Curiosidades</h2>
+                    <p>Todo ano, no mês de maio, celebra-se o Dia Internacional da Lontra. Esse dia tem como
+                        objetivo
+                        conscientizar as pessoas sobre a importância desse animal e sobre a necessidade da
+                        preservação
+                        do meio ambiente onde ele vive, tendo em vista os riscos que corre de extinção.</p>
+                    <p>Lontras são conhecidas por usar ferramentas, como pedras, para auxiliar na abertura de
+                        conchas de
+                        moluscos e crustáceos. Elas são uma das poucas espécies não humanas que demonstram essa
+                        habilidade, o que revela um alto nível de inteligência.</p>
+                    <p>São famosas por seu comportamento lúdico. Elas são frequentemente vistas brincando na
+                        água,
+                        rolando, mergulhando e perseguindo umas às outras. Esse comportamento é uma forma de
+                        fortalecer
+                        laços sociais e ensinar filhotes a caçar.</p>
+                    <p>Uma lontra pode consumir até 20% de seu próprio peso corporal em um único dia. Isso é
+                        necessário
+                        porque elas têm altos requerimentos energéticos para manter a temperatura corporal em
+                        águas
+                        frias.</p>
+                    <p>Elas se comunicam entre si por meio de vocalizações distintas. Elas emitem apitos,
+                        guinchos e
+                        outros sons para se comunicarem, o que é especialmente importante durante a caça em
+                        grupo.</p>
+                    <p>As atividades das lontras podem variar entre espécies. Algumas são mais ativas durante o
+                        dia,
+                        enquanto outras preferem a noite. Isso pode depender das presas disponíveis e dos
+                        predadores
+                        locais.</p>
+                    <p>A pelagem das lontras é extremamente importante para mantê-las secas e aquecidas na água
+                        fria.
+                        Elas têm duas camadas de pelos: uma pelagem interna densa e impermeável e uma pelagem
+                        externa
+                        mais áspera que ajuda a manter a forma e a flutuabilidade na água.</p>
+                    <p>Algumas espécies de lontras estão ameaçadas de extinção devido à perda de habitat,
+                        poluição da
+                        água e caça. A lontra-marinha, por exemplo, é classificada como "Em Perigo" devido à
+                        caça por
+                        seu pelo e à degradação do habitat.</p>
+                    <p>Em algumas áreas, esforços de conservação têm levado ao aumento das populações de
+                        lontras. Isso é
+                        um sinal positivo de que, com a devida proteção e preservação de seus habitats, esses
+                        incríveis
+                        animais podem se recuperar.</p>
+                </div>
+                <!-- Imagem -->
+                <div class="col-md-6">
+                    <img src="./imagens/lontra-curiosidades.png" alt="Lontra em pé" class="imagem-curiosidades">
+                </div>
+            </article>
+        </section>
+    
+    <!-- Footer -->
+    <footer class="bg-cinza text-white pt-4 mt-5">
+        <div class="container pr-5 pl-5">
+            <div class="row">
+                <!-- Footer Coluna 1 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-azul">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#alimentacao">Alimentação</a></li>
+                        <li><a href="#habitat">Habitat</a></li>
+                        <li><a href="#curiosidades">Curiosidades</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Coluna 2 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-azul">Contato</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-azul">contato@lontrasfas.com</a></li>
+                        <li class="text-azul">(11) 2424-0606</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Coluna 3 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-azul">Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Coluna 4 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-azul">Newsletter: </h5>
+                    <p class="text-azul">Todo dia uma foto fofa de lontra em seu e-mail!</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                        </div>
+                        <button type="submit" class="btn btn-danger bg-vermelho">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="bg-vermelho mb-2">
+            <div class="row d-flex justify-content-center">
+                <p class="text-vermelho">Lontras fãs - CC</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

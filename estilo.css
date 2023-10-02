@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+/* Geral página */
+:root{
+    --main--padding:5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+body{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+/* Formatação textos */
+h1{
+    color:#fb3800;
+    font-size: 40px;
+}
+h2{
+    color:#fb3800;
+    margin-bottom: 15px;
+}
+p{
+    color: #305aa5;
+    margin-bottom: 2%;
+}
+.p-destaque{
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+a{
+    text-decoration: none;
+    color: #31a499 !important;
+}
+a:hover{
+    color: #fb3800 !important;
+    text-decoration: underline;
+}
+
+/* Cores dos textos */
+.text-vermelho{
+    color: #fb3800;
+}
+.text-verde{
+    color: #31a499;
+}
+.text-azul{
+    color: #305aa5;
+}
+
+/* Cores fundos */
+.bg-vermelho{
+    background-color: #fb3800 !important;
+}
+.bg-cinza{
+    background-color: rgb(212, 212, 212);
+}
+
+/* Menu */
+.logo-imagem{
+    width: 10%;
+}
+.nav-item{
+    font-size: 20px;
+}
+.nav-item:hover{
+    text-decoration: underline #fb3800;
+}
+.material-symbols-rounded{
+    color:#fb3800;
+    font-size: 40px !important;
+}
+
+/* Conteúdos */
+#sobre,#alimentacao,#habitat,#curiosidades{
+    padding: var(--main--padding);
+    align-items: center;
+}
+.imagem-conteudo{
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.imagem-conteudo-2{
+    max-width: 100%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.imagem-curiosidades{
+    max-width: 100%;
+}
